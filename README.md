@@ -1,6 +1,7 @@
 A secure document management system that provides controlled access to PDF documents with different levels of visibility using Firebase Cloud Storage. The system consists of two Streamlit web interfaces - one for administrators to manage documents and another for users to access them.
 
 
+
 Features
 
 Admin Interface: Upload PDFs and set access controls
@@ -12,6 +13,7 @@ Generate unique document IDs
 Store documents securely in Firebase Cloud Storage
 
 Apply content blurring for restricted access
+
 
 
 User Interface: Access documents with appropriate permissions
