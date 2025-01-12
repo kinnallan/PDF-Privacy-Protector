@@ -1,5 +1,5 @@
 import streamlit as st
-import fitz  # PyMuPDF
+import fitz
 from PIL import Image, ImageDraw, ImageFilter
 import re
 import tempfile
@@ -7,7 +7,7 @@ import os
 from io import BytesIO
 import firebase_admin
 from firebase_admin import credentials, storage, firestore
-import uuid  # Added this import
+import uuid 
 import bcrypt
 from datetime import datetime
 import logging
