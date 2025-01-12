@@ -4,7 +4,11 @@ A secure document management system that provides controlled access to PDF docum
 
 1. Features
 
-a) Admin Interface: Upload PDFs and set access controls
+a) Admin Interface: 
+
+to run: streamlit run upload.py
+
+Upload PDFs and set access controls
 
 Set user and owner passwords
 
@@ -16,7 +20,11 @@ Apply content blurring for restricted access
 
 
 
-b) User Interface: Access documents with appropriate permissions
+b) User Interface: 
+
+to run: streamlit run access.py
+
+Access documents with appropriate permissions
 
 Enter document ID and password for access
 
@@ -60,38 +68,7 @@ Update any configuration files with your Firebase project details
 
 
 
-5. Usage
-
-a)  Admin Interface
-
-Run the admin interface: streamlit run upload.py
-
-Through the admin interface, you can: Upload PDF documents
-
-Set user passwords (for restricted access)
-
-Set owner passwords (for full access)
-
-Generate and manage document IDs
-
-Store documents in Firebase Cloud Storage
-
-
-
-b) User Interface
-
-Run the user interface: streamlit run access.py
-
-To access documents: Enter the provided document ID
-
-Enter either:
-
-User password (shows blurred sensitive content)
-
-Owner password (shows original document)
-
-
-6. Note:
+5. Note:
 
 Firebase credentials are not included in this repository for security reasons
 
