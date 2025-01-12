@@ -1,0 +1,20 @@
+ # Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Firebase credentials
+*firebase-adminsdk*.json
+pdfblur-firebase-adminsdk-dfic3-3bebd41ba0.json
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/
+
+# System files
+.DS_Store
+
