@@ -2,9 +2,9 @@ A secure document management system that provides controlled access to PDF docum
 
 
 
-Features
+1. Features
 
-Admin Interface: Upload PDFs and set access controls
+a) Admin Interface: Upload PDFs and set access controls
 
 Set user and owner passwords
 
@@ -16,7 +16,7 @@ Apply content blurring for restricted access
 
 
 
-User Interface: Access documents with appropriate permissions
+b) User Interface: Access documents with appropriate permissions
 
 Enter document ID and password for access
 
@@ -26,7 +26,8 @@ Access original document with owner password
 
 
 
-System Architecture
+2. System Architecture
+   
 The application is built using:
 
 Streamlit for web interfaces
@@ -38,11 +39,11 @@ PDF processing libraries for document manipulation
 Security features for access control
 
 
-Setup Instructions
+3. Setup Instructions
 
-1. Install required dependencies: pip install -r requirements.txt
+a) Install required dependencies: pip install -r requirements.txt
 
-2. Firebase Setup:
+b) Firebase Setup:
 
 Create a Firebase project
 
@@ -51,7 +52,7 @@ Generate your Firebase Admin SDK credentials
 Save the credentials file (e.g., pdfblur-firebase-adminsdk-dfic3-3bebd41ba0.json) in the environment folder
 
 
-Environment Configuration:
+4. Environment Configuration:
 
 Ensure your Firebase credentials file is properly placed
 
@@ -59,15 +60,13 @@ Update any configuration files with your Firebase project details
 
 
 
-Usage
+5. Usage
 
-1. Admin Interface
+a)  Admin Interface
 
 Run the admin interface: streamlit run upload.py
 
-Through the admin interface, you can:
-
-Upload PDF documents
+Through the admin interface, you can: Upload PDF documents
 
 Set user passwords (for restricted access)
 
@@ -79,13 +78,11 @@ Store documents in Firebase Cloud Storage
 
 
 
-2. User Interface
+b) User Interface
 
 Run the user interface: streamlit run access.py
 
-To access documents:
-
-Enter the provided document ID
+To access documents: Enter the provided document ID
 
 Enter either:
 
@@ -94,7 +91,7 @@ User password (shows blurred sensitive content)
 Owner password (shows original document)
 
 
-Note:
+6. Note:
 
 Firebase credentials are not included in this repository for security reasons
 
