@@ -16,7 +16,7 @@ Generate unique document IDs
 
 Store documents securely in Firebase Cloud Storage
 
-Apply content blurring for restricted access
+Can control blur intensity (scale of 5-20)
 
 
 
