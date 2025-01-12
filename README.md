@@ -6,7 +6,7 @@ A secure document management system that provides controlled access to PDF docum
 
 a) Admin Interface: 
 
-to run: streamlit run upload.py
+To run: streamlit run upload.py
 
 Upload PDFs and set access controls
 
@@ -22,7 +22,7 @@ Apply content blurring for restricted access
 
 b) User Interface: 
 
-to run: streamlit run access.py
+To run: streamlit run access.py
 
 Access documents with appropriate permissions
 
